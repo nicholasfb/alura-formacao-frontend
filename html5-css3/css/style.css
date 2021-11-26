@@ -1,0 +1,15 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+p em strong {
+    color: #FF0000;
+}
