@@ -1,17 +1,5 @@
-body {
-    
-}
-
 img {
     width: 100%;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
 }
 
 p {
@@ -29,9 +17,18 @@ ul {
     margin-right: 5%;
 }
 
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
 .principal {
     background-color: whitesmoke;
     padding: 30px;
+}
+
+.titulo-centralizado {
+    text-align: center;
 }
 
 #missao {
