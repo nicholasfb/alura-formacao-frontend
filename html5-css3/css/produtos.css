@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d6d2c5;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
