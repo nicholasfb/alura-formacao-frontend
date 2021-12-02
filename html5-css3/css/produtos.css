@@ -36,3 +36,40 @@ nav a:hover {
     width: 940px;
     margin: 0 auto;
 }
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos li {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
