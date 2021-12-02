@@ -1,11 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ul {
+    list-style-type: none;
+    
 }
 
 header {
     background-color: #d6d2c5;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
@@ -25,8 +31,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-type: none;
-    
+.menu-container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
-
