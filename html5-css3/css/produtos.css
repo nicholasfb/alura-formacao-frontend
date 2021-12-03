@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 ul {
     list-style-type: none;
     
@@ -24,7 +28,7 @@ nav a {
     color: #000;
     font-weight: bold;
     text-decoration: none;
-    font-size: 22px
+    font-size: 28px
 }
 
 nav a:hover {
@@ -42,13 +46,13 @@ nav a:hover {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-    
+    height: 60vh;
 }
 
 .produtos li {
     box-sizing: border-box;
     display: inline-block;
-    width: 30%;
+    width: 28%;
     vertical-align: top;
     text-align: center;
     margin: 0 1.5%;
@@ -74,6 +78,7 @@ nav a:hover {
 
 .produtos li:hover h2 {
     font-size: 34px;
+    color: #c2ae3e;
 }
 
 .produto-descricao {
@@ -87,6 +92,10 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin: 20px 0;
+}
+
+.produtos li:hover .produto-preco {
+    font-size: 28px;
 }
 
 footer {
