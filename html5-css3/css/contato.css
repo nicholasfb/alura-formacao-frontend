@@ -47,18 +47,24 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form legend {
     display: block;
     font-size: 18px;
+    
     margin-bottom: 10px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin-bottom: 20px;
     padding: 10px 15px;
-    width: 35%;
+    width: 50%;
 }
+
+.checkbox {
+    margin: 20px 0;
+}
+
 
 footer {
     background-color: #414361;
@@ -71,3 +77,4 @@ footer {
     font-size: 16px;
     margin: 20px 0;
 }
+
