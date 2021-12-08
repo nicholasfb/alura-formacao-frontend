@@ -4,46 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Marcenaria Matarazo</title>
 </head>
 <body>
     <header>
-        <h1 class="titulo-principal">Marcenaria Matarazo</h1>
+       <div class="menu-container">
+
+            <h1><img src="img/logo.png" alt="Logo Marcenaria Matarazo"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+       </div>
     </header>
 
-    <img src="img/banner.jpg" alt="Marceneiro" id="banner">
+    <img src="img/banner.jpg" alt="Marceneiro" class="banner">
 
-    <div class="principal">
-        <h2 class="titulo-centralizado">Sobre a Marcenaria Matarazo</h2>
-        
-        <p>
-            Localizada no coração do bairro de Ermelino Matarazo, a <strong>Marcenaria Matarazo</strong> traz para o mercado o que há de melhor na produção de móveis. Fundada em 2019, a <strong>Marcenaria Matarazo</strong> já é destaque no bairro e conquista novos clientes a cada dia.
-        </p>
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Marcenaria Matarazo</h2>
+            
+            <img src="img/ferramentas.jpg" alt="Ferramentas de Marceneiro"
+            class="ferramentas">
 
-        <p id="missao">
-            <em>Nossa missão é: <strong>"Proporcionar satisfação e móveis de qualidade aos clientes"</strong>.</em>
-        </p>
+            <p>
+                Localizada no coração do bairro de Ermelino Matarazo, a <strong>Marcenaria Matarazo</strong> 
+                traz para o mercado o que há de melhor na produção de móveis. Fundada em 2019, a <strong>Marcenaria Matarazo</strong> já é destaque no bairro e conquista novos 
+                clientes a cada dia.
+            </p>
 
-        <p>
-            Trabalhamos apenas com <strong>matéria prima de qualidade e profissionais experientes</strong> e antenados às tendências do mercado. O produto final possui padrão de <strong>excelência e qualidade</strong>, garantindo a satisfação dos nossos clientes.
-        </p>
-    </div>
+            <p id="missao">
+                <em>Nossa missão é: <strong>"Proporcionar satisfação e 
+                    móveis de qualidade aos clientes"</strong>.</em>
+            </p>
 
-    <div class="beneficios">
+            <p>
+                Trabalhamos apenas com <strong>matéria prima e ferramentas de qualidade e profissionais experientes</strong> 
+                antenados às tendências do mercado. O produto final possui padrão de 
+                <strong>excelência e alto nível</strong>, garantindo a satisfação dos nossos clientes.
+            </p>
+        </section>
 
-    <h3 class="titulo-centralizado">Benefícios</h3>
+        <section class="beneficios">
 
-        <ul>
-            <li class="itens">Atendimento aos clientes</li>
-            <li class="itens">Serviço personalizado</li>
-            <li class="itens">Localização</li>
-            <li class="itens">Profissionais </li>
-        </ul>
+        <h3 class="titulo-principal">Benefícios</h3>
 
-        <img src="img/beneficios.jpg" alt="beneficios" class="img-beneficios">
-    </div>
+            <ul>
+                <li class="itens">Atendimento aos clientes</li>
+                <li class="itens">Serviço personalizado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais </li>
+            </ul>
 
-    
+            <img src="img/beneficios.jpg" alt="beneficios" class="img-beneficios">
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/logo-footer.png" alt="Rodapé Logo Marcenaria Matarazo">
+        <p class="copyright">&copy; Copyright Marcenaria Matarazo - 2021</p>
+    </footer>
 </body>
 </html>
