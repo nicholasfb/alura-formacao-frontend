@@ -52,7 +52,7 @@ nav a:hover {
 .produtos li {
     box-sizing: border-box;
     display: inline-block;
-    width: 28%;
+    width: 29%;
     vertical-align: top;
     text-align: center;
     margin: 0 1.5%;
@@ -60,6 +60,8 @@ nav a:hover {
     border: 2px solid #000;
     border-radius: 8px;
 }
+
+
 
 .produtos li:hover {
     border-color: #9c8d39;
@@ -87,6 +89,7 @@ nav a:hover {
     border-bottom: .5px solid #000;
     
 }
+
 
 .produto-preco {
     font-size: 22px;
