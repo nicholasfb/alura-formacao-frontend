@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+    .menu-container, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+        padding: 1rem;
+    }
+
+    main {
+        width: auto;
+    }
+
+    form, table, .enviar {
+        padding: 1rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        font-size: 1.25rem;
+    }
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+    }
+
+    .img-beneficios {
+        box-shadow: 0px 1px 2px #000;
+    }
+}
