@@ -53,6 +53,7 @@ main {
     font-weight: 500;
     margin: 1rem 0 1.5rem 0;
     clear: left;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 .principal {
@@ -111,7 +112,8 @@ main {
 
 .img-beneficios {
     width: 60%;
-    
+    opacity: .8;
+    box-shadow: 1px 1px 6px 1px #000;
 }
 
 .itens {
