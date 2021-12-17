@@ -36,6 +36,7 @@ nav ul a:hover {
 
 .banner img{
     width: 100%;
+    align-items: stretch;
 }
 
 .subtitulo {
@@ -96,8 +97,7 @@ nav ul a:hover {
 }
 
 .lista-beneficios {
-    align-self: stretch;
-    
+    align-self: baseline;
 }
 
 .img-beneficios {
