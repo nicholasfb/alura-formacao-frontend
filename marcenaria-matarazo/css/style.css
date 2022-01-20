@@ -68,7 +68,7 @@ header {
 }
 
 .container {
-    width: 960px !important;
+    width: 960px;
     margin: 0 auto;
 
     display: flex;
@@ -126,12 +126,12 @@ header {
 /* x. Sobre
 /**********************************/
 .sobre {
+    width: auto;
     margin: 0 auto;
 }
 
 .container__sobre {
     display: flex;
-    width: 960px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -141,8 +141,7 @@ header {
     margin: 10px 20px;
 }
 
-.ferramentas {
-    width: 50%;
+.ferramentas { 
     height: 200px;
     object-fit: cover;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.475);
@@ -152,7 +151,7 @@ header {
 /* x. Benefícios
 /**********************************/
 .beneficios {
-    width: 640px;
+    
     margin: 0 auto;
     
 }
@@ -165,14 +164,14 @@ header {
 }
 
 .beneficios-img {
-    width: 60%;
+    
     opacity: .8;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.475);
     margin-left: 40px;
 }
 
 .beneficios-lista {
-    width: 1000%;
+    
 }
 
 .beneficios-lista__itens {
@@ -292,7 +291,6 @@ header {
 }
 
 .mapa-conteudo {
-    width: 960px;
     margin: 0 auto;
     padding: 40px 0;
     

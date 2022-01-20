@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    header {
+        width: auto;
+    }
+
+    .container__menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container__sobre {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .beneficios-container {
+        flex-direction: column;
+    }
+
+    .beneficios-img {
+        order: -1;
+    }
+
+    .servicos-lista {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .profissionais-lista {
+        flex-direction: column;
+    }
+
+    .mapa-conteudo {
+        width: 320px;
+    }
+}
