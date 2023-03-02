@@ -1,0 +1,19 @@
+const objPersonagem = {
+    nome: 'Gandalf',
+    class: 'Mago',
+    nivel: '20'
+};
+
+// const objPersonagem2 = objPersonagem;
+
+// console.log(objPersonagem2);
+
+// objPersonagem2.alignment = 'Lawful Good';
+// console.log(objPersonagem2);
+
+// console.log(objPersonagem);
+
+
+const objPersonagem2 = Object.create(objPersonagem);
+
+console.log(objPersonagem2);
